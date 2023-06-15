@@ -1,0 +1,200 @@
+/* site header start  */
+.upper {
+    padding: 13px 0;
+}
+
+.upper__address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    margin-left: 216px;
+}
+.upper__link-locat {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--main-button-dark-bc);
+}
+.upper__link-locat::before {
+    position: absolute;
+    left: -23px;
+    display: block;
+    width: 14px;
+    height: 13px;
+    background-image: url(../images/icons/homeicon.svg);
+    content: "";
+}
+.upper__link-locat:hover {
+    color: var(--main-button-light-bc);
+}
+.upper__link-locat:active {
+    color: var(--main-button-dark-bc);
+    opacity: 0.6;
+}
+.upper__link-tel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.upper__link-tel::before {
+    position: absolute;
+    left: -22px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background-image: url(../images/icons/telicon.svg);
+    content: "";
+}
+.upper__link-item:not(:first-child) {
+    position: relative;
+    margin-left: 22px;
+}
+.upper__link-item:not(:first-child)::before {
+    position: absolute;
+    top: 6px;
+    left: -13px;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-image: url(../images/icons/iconamongtel.svg);
+    content: "";
+}
+.upper__tel-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: var(--main-button-dark-bc);
+}
+.upper__tel-link:hover {
+    color: var(--main-button-light-bc);
+}
+.upper__tel-link:active {
+    color: var(--main-button-dark-bc);
+    opacity: 0.6;
+}
+.upper__work-time {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    color: var(--main-button-dark-bc);
+}
+.upper__work-time::before {
+    position: absolute;
+    left: -21px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/icons/schedule.svg);
+    content: "";
+}
+.upper__work-time::after {
+    color: var(--main-button-dark-bc);
+    opacity: 0.6;
+}
+.upper__worktime-item:first-child {
+    margin-right: 17px;
+}
+.upper__link-time:hover {
+    color: var(--main-button-light-bc);
+}
+
+/* upper part finish  */
+
+/* downer start  */
+.site-header__downer {
+    background-color: #ffffff;
+}
+.downer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo__link {
+    text-decoration: none;
+    position: absolute;
+}
+.logo {
+    position: absolute;
+}
+.logo:hover {
+    opacity: 80%;
+}
+.logo:active {
+    opacity: 60%;
+}
+.downer__list {
+    position: relative;
+    display: flex;
+    margin: 0;
+    margin-left: 326px;
+    padding-left: 0;
+    list-style: none;
+}
+.downer__list::before {
+    position: absolute;
+    top: 2px;
+    left: -28px;
+    display: block;
+    width: 21px;
+    height: 15px;
+    background-image: url(../images/icons/active.svg);
+    content: "";
+}
+.downer__item:not(:first-child) {
+    margin-left: 55px;
+}
+.downer__links {
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: none;
+    color: var(--main-button-dark-bc);
+}
+.downer__links:hover {
+    opacity: 80%;
+}
+.downer__links:active {
+    opacity: 60%;
+}
+.downer__ask {
+    position: relative;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: right;
+    text-decoration: none;
+    color: var(--main-button-dark-bc);
+}
+.downer__ask:hover {
+    opacity: 80%;
+}
+.downer__ask:active {
+    opacity: 60%;
+}
+.downer__ask::before {
+    position: absolute;
+    top: -5px;
+    left: -28px;
+    display: block;
+    width: 30px;
+    height: 24px;
+    background-image: url(../images/icons/pet.svg);
+    content: "";
+}
+/* site header finish  */
